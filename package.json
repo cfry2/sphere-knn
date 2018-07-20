@@ -18,13 +18,14 @@
     "url": "git://github.com/darkskyapp/sphere-knn.git"
   },
   "main": "./index",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "mocha": "*",
-    "chai" : "*"
+    "babel-cli": "^6.26.0",
+    "chai": "*",
+    "mocha": "*"
   },
   "scripts": {
-    "test": "mocha --check-leaks"
+    "test": "mocha --check-leaks",
+    "build": "babel src -d lib"
   }
 }

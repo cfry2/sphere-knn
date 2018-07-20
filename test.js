@@ -1,6 +1,6 @@
 var assert   = require("chai").assert,
-    binary   = require("./lib/binary"),
-    spherekd = require("./lib/spherekd")
+    binary   = require("./src/lib/binary"),
+    spherekd = require("./src/lib/spherekd")
 
 describe("sphere-knn", function() {
   describe("binary", function() {
